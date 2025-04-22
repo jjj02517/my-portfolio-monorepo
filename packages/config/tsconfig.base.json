@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@ui/*": ["../ui/src/*"]   // 공통 UI 패키지 사용 시
+    },
+    "types": []
+  },
+  "exclude": ["node_modules", "dist"]
+}
