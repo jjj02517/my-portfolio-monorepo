@@ -8,5 +8,8 @@ export default defineNuxtConfig({
       tailwindcss: {},
       autoprefixer: {}
     }
+  },
+  nitro: {
+    preset: 'vercel'  // Vercel 환경에 맞춤
   }
 })
